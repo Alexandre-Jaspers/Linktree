@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+}
+
+.site-header {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.site-header .btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.site-header .btn:hover {
+  background-color: white;
+  color: #1e3c72;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+  background-color: #ccc; /* Placeholder for the profile picture */
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content-section {
+  margin: 20px;
+}
+
+.content-section p {
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.content-section p:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.site-footer {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.site-footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
